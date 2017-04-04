@@ -1,0 +1,74 @@
+body {
+    background-image: url("../images/galaxyBG.jpg");
+    background-size: 100%;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    width: 50%;
+    height: 7%;
+    border-radius: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar button {
+    background: rgba(255, 255, 255, 0.5);
+    width:24.6%;
+    border: none;
+    color: black;
+    margin-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+
+#meBox {
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 15px;
+    width: 55%;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin-left: 10%;
+
+}
+
+#sidebar {
+    background: rgba(255, 255, 255, 0.5);
+    width: 20%;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+    position: relative;
+    float: right;
+    margin-right: 10%;
+    padding-bottom: 20px;
+}
+
+.connect {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.icons {
+    width: 20%;
+    margin: 0 auto;
+}

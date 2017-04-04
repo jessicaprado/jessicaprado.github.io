@@ -1,0 +1,22 @@
+angular
+    .module('portfolio.component.sidebar')
+    .directive('sidebar', Sidebar);
+
+function Sidebar() {
+    return {
+        restrict: 'E',
+        scope: {
+            navbarData: "="
+        },
+        templateUrl: '/portfolio/features/components/sidebar/sidebar.html',
+        controller: SidebarCtrl,
+        controllerAs: 'SidebarVM',
+        bindToController: true
+    }
+}
+
+function SidebarCtrl() {
+    var vm = this;
+
+
+}
