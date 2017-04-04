@@ -8,7 +8,7 @@ function Sidebar() {
         scope: {
             navbarData: "="
         },
-        templateUrl: '/portfolio/features/components/sidebar/sidebar.html',
+        templateUrl: '/app/portfolio/features/components/sidebar/sidebar.html',
         controller: SidebarCtrl,
         controllerAs: 'SidebarVM',
         bindToController: true

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b282795b-ae45-4a06-a272-f0535ed5c0ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/features/home/home.route.js" afterPath="$PROJECT_DIR$/app/portfolio/features/home/home.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/features/work/work.route.js" afterPath="$PROJECT_DIR$/app/portfolio/features/work/work.route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.directive.js" afterPath="$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.directive.js" afterPath="$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.directive.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,11 +114,31 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="work.route.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="work.route.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/portfolio/features/work/work.route.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="navbar.directive.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.directive.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sidebar.directive.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.directive.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -143,12 +163,10 @@
         <option value="$PROJECT_DIR$/app/portfolio/features/work/work.controller.js" />
         <option value="$PROJECT_DIR$/app/portfolio/features/home/home.controller.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.directive.js" />
         <option value="$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.module.js" />
         <option value="$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.module.js" />
-        <option value="$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.directive.js" />
         <option value="$PROJECT_DIR$/app/portfolio/features/home/home.module.js" />
         <option value="$PROJECT_DIR$/app/portfolio/features/work/work.module.js" />
         <option value="$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.html" />
@@ -159,6 +177,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/portfolio/features/home/home.route.js" />
         <option value="$PROJECT_DIR$/app/portfolio/features/work/work.route.js" />
+        <option value="$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.directive.js" />
+        <option value="$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.directive.js" />
       </list>
     </option>
   </component>
@@ -311,6 +331,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sidebar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jessicaprado.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jessicaprado.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navbar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -713,12 +771,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491316735358</updated>
-      <workItem from="1491316737082" duration="12735000" />
+      <workItem from="1491316737082" duration="13400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12735000" />
+    <option name="totallyTimeSpent" value="13400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="507" width="2048" height="643" extended-state="0" />
@@ -826,22 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/portfolio/portfolio.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -940,8 +982,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/portfolio/features/work/work.route.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="135">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>
