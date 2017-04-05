@@ -1,14 +1,13 @@
-body {
-    background-image: url("../images/galaxyBG.jpg");
-    background-size: 120%;
+html {
+    background-image: url("../images/galaxyBG-2.jpg");
+    background-size: 100%;
 }
 
 .name {
     display: flex;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.5);
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
     height: 7%;
     border-radius: 10px;
 }
@@ -19,7 +18,7 @@ body {
 }
 
 .navbar button {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     width:24.6%;
     border: none;
     color: black;
@@ -33,33 +32,36 @@ body {
     border-radius: 10px;
 }
 
-h4,
-h1 {
+h4 {
+    font-family: 'Palanquin', sans-serif;
+}
+
+h2{
     font-family: 'Lobster', cursive;
     color: black;
 }
 
-#meBox {
-    background: rgba(255, 255, 255, 0.5);
-    margin-top: 15px;
-    width: 55%;
-    border-radius: 5px;
-    display: inline-block;
-    position: relative;
-    float: left;
-    margin-left: 10%;
+h3 {
+    font-family: 'Lobster', cursive;
+    color: black;
+    font-size: 30px;
 }
 
-#sidebar {
-    background: rgba(255, 255, 255, 0.5);
-    width: 20%;
+
+h1 {
+    font-size: 48px;
+    font-family: 'Lobster', cursive;
+    color: rgba(245, 245, 245, 0.9);
+}
+
+#meBox {
+    background: rgba(255, 255, 255, 0.7);
+    width: 55%;
+    padding: 20px;
     border-radius: 5px;
-    display: inline-block;
-    margin-top: 15px;
-    position: relative;
-    float: right;
-    margin-right: 10%;
-    padding-bottom: 20px;
+    display: block;
+    margin: 30px auto;
+    font-family: 'Palanquin', sans-serif;
 }
 
 .connect,
@@ -69,21 +71,23 @@ h1 {
     margin: 0 auto;
 }
 
-.icons {
-    width: 20%;
-    margin: 0 auto;
+.site-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+a {
+    margin-right: 15px;
 }
 
 #workBox {
-    background: rgba(255, 255, 255, 0.5);
-    margin-top: 15px;
-    padding-left: 10px;
-    padding-bottom: 20px;
-    width: 57%;
+    background: rgba(255, 255, 255, 0.8);
+    width: 65%;
+    padding: 0 20px 0 30px;
     border-radius: 5px;
-    display: inline-block;
-    position: relative;
-    margin-left: 10%;
+    margin: 30px auto;
+    font-family: 'Palanquin', sans-serif;
 }
 
 .top {
@@ -103,4 +107,14 @@ h1 {
 
 .screenshot {
     margin-right: 10px;
+}
+
+footer {
+    background-color: rgba(255, 165, 0, 0.85);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 90px;
+    width: 100%;
+    overflow:hidden;
 }
