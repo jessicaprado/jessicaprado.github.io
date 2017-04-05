@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b282795b-ae45-4a06-a272-f0535ed5c0ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/layout/assets/images/galaxyBG.jpg" afterPath="$PROJECT_DIR$/app/portfolio/layout/assets/images/galaxyBG.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.html" afterPath="$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/features/home/home.html" afterPath="$PROJECT_DIR$/app/portfolio/features/home/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/features/work/work.html" afterPath="$PROJECT_DIR$/app/portfolio/features/work/work.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/layout/assets/css/style.css" afterPath="$PROJECT_DIR$/app/portfolio/layout/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,8 +42,8 @@
           <file leaf-file-name="work.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/portfolio/features/work/work.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="97" lean-forward="false" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
                   <folding />
                 </state>
               </provider>
@@ -702,12 +695,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491316735358</updated>
       <workItem from="1491316737082" duration="13956000" />
-      <workItem from="1491343167772" duration="5561000" />
+      <workItem from="1491343167772" duration="5905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19517000" />
+    <option name="totallyTimeSpent" value="19861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="196" width="2048" height="952" extended-state="0" />
@@ -999,8 +992,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/portfolio/features/work/work.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="165">
+          <caret line="11" column="97" lean-forward="false" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
           <folding />
         </state>
       </provider>
