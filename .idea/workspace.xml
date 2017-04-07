@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b282795b-ae45-4a06-a272-f0535ed5c0ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html" afterPath="$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/layout/assets/css/style.css" afterPath="$PROJECT_DIR$/app/portfolio/layout/assets/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +30,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="showCase.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="showCase.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
@@ -50,17 +50,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="navbar.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="150">
@@ -77,8 +67,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/portfolio/layout/assets/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="627">
-                  <caret line="188" column="16" lean-forward="false" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
+                <state relative-caret-position="717">
+                  <caret line="390" column="0" lean-forward="true" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -147,10 +137,10 @@
         <option value="$PROJECT_DIR$/app/portfolio/portfolio.module.js" />
         <option value="$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.directive.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html" />
         <option value="$PROJECT_DIR$/app/portfolio/features/home/home.html" />
         <option value="$PROJECT_DIR$/app/portfolio/features/work/work.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html" />
         <option value="$PROJECT_DIR$/app/portfolio/layout/assets/css/style.css" />
       </list>
     </option>
@@ -780,12 +770,12 @@
       <workItem from="1491316737082" duration="13956000" />
       <workItem from="1491343167772" duration="6504000" />
       <workItem from="1491364628177" duration="521000" />
-      <workItem from="1491525725289" duration="6847000" />
+      <workItem from="1491525725289" duration="6990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27828000" />
+    <option name="totallyTimeSpent" value="27971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1495" height="1097" extended-state="0" />
@@ -1130,14 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.directive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -1170,14 +1152,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/portfolio/features/work/work.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1202,10 +1176,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/portfolio/layout/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="188" column="16" lean-forward="false" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
+        <state relative-caret-position="717">
+          <caret line="390" column="0" lean-forward="true" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding />
         </state>
       </provider>
