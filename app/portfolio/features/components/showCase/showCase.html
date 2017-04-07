@@ -1,0 +1,16 @@
+<div id="workBox">
+    <div class="row">
+        <div class="col-md-12 portfolioHeader">
+            <h3>Portfolio</h3>
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="projects col-md-5" ng-repeat='projects in ShowCaseVM.projects' show-case-data="showCase">
+            <h4>{{projects.name}}</h4>
+            <a href="{{projects.link}}">
+            <img src="{{projects.img}}" width="250"></a>
+        </div>
+    </div>
+
+</div>

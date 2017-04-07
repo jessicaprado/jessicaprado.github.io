@@ -6,7 +6,7 @@ function Sidebar() {
     return {
         restrict: 'E',
         scope: {
-            navbarData: "="
+            sidebarData: "="
         },
         templateUrl: '/app/portfolio/features/components/sidebar/sidebar.html',
         controller: SidebarCtrl,
