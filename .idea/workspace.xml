@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b282795b-ae45-4a06-a272-f0535ed5c0ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.module.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/portfolio/layout/assets/images/burger.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/portfolio/layout/assets/images/galaxyBG.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/portfolio/layout/assets/images/todolist.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/portfolio/layout/assets/images/trivia.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/layout/assets/images/scheduling.png" afterPath="$PROJECT_DIR$/app/portfolio/layout/assets/images/scheduling.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.directive.js" afterPath="$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.directive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html" afterPath="$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/features/home/home.html" afterPath="$PROJECT_DIR$/app/portfolio/features/home/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/features/work/work.html" afterPath="$PROJECT_DIR$/app/portfolio/features/work/work.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/features/work/work.module.js" afterPath="$PROJECT_DIR$/app/portfolio/features/work/work.module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/layout/assets/css/style.css" afterPath="$PROJECT_DIR$/app/portfolio/layout/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -30,14 +20,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5540647">
+    <splitter split-orientation="horizontal" split-proportion="0.37659237">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/portfolio/features/home/home.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="330">
-                  <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+                  <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -46,8 +36,8 @@
           <file leaf-file-name="showCase.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -63,6 +53,16 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -70,18 +70,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/portfolio/layout/assets/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="615">
-                  <caret line="97" column="10" lean-forward="false" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="95" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="20" selection-end-column="95" />
+                <state relative-caret-position="822">
+                  <caret line="193" column="5" lean-forward="false" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -90,8 +80,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+                <state relative-caret-position="450">
+                  <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -110,8 +100,8 @@
           <file leaf-file-name="work.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/portfolio/features/work/work.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
                   <folding />
                 </state>
               </provider>
@@ -154,16 +144,16 @@
         <option value="$PROJECT_DIR$/app/portfolio/features/work/work.route.js" />
         <option value="$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.directive.js" />
         <option value="$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.html" />
-        <option value="$PROJECT_DIR$/app/portfolio/features/home/home.html" />
         <option value="$PROJECT_DIR$/app/portfolio/features/work/work.module.js" />
         <option value="$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.directive.js" />
         <option value="$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.module.js" />
         <option value="$PROJECT_DIR$/app/portfolio/portfolio.module.js" />
-        <option value="$PROJECT_DIR$/app/portfolio/features/work/work.html" />
         <option value="$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.directive.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html" />
+        <option value="$PROJECT_DIR$/app/portfolio/features/home/home.html" />
+        <option value="$PROJECT_DIR$/app/portfolio/features/work/work.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/portfolio/layout/assets/css/style.css" />
       </list>
     </option>
@@ -178,9 +168,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="235" />
+    <option name="x" value="-1" />
     <option name="y" value="23" />
-    <option name="width" value="1825" />
+    <option name="width" value="1495" />
     <option name="height" value="1097" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -266,6 +256,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jessicaprado.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jessicaprado.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -767,15 +783,15 @@
       <workItem from="1491316737082" duration="13956000" />
       <workItem from="1491343167772" duration="6504000" />
       <workItem from="1491364628177" duration="521000" />
-      <workItem from="1491525725289" duration="4127000" />
+      <workItem from="1491525725289" duration="6205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25108000" />
+    <option name="totallyTimeSpent" value="27186000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="235" y="23" width="1825" height="1097" extended-state="0" />
+    <frame x="-1" y="23" width="1495" height="1097" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -792,7 +808,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2893999" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13558155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1077,14 +1093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.module.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1125,14 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/portfolio/features/work/work.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.directive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1157,14 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/portfolio/features/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1173,26 +1165,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/portfolio/features/work/work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/portfolio/features/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/sidebar/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/portfolio/layout/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="97" column="10" lean-forward="false" selection-start-line="97" selection-start-column="10" selection-end-line="97" selection-end-column="10" />
+        <state relative-caret-position="822">
+          <caret line="193" column="5" lean-forward="false" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="5" />
           <folding />
         </state>
       </provider>
