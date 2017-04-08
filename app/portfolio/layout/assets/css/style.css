@@ -1,25 +1,43 @@
+/**
+ * CH01 - Resets
+ * CH02 - Typography
+ * CH03 - Page Structure
+ * CH04 - Header & Navigation
+ * CH05 - Content & Media
+ * CH06 - Footer
+ * CH07 - Miscellaneous
+**/
+
+
+/** PAGE STRUCTURE **/
 html {
     background-image: url("../images/galaxyBG-2.jpg");
     background-size: 100%;
     height: 100%;
     margin: 0;
+    background-attachment: fixed;
+    display: table;
+    width: 100%;
 }
 
 body {
     background: rgba(255, 255, 255, 0.0);
     height: 100%;
+    width: 100%;
     margin: 0;
+    display: table;
 }
 
-.name {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    width: 60%;
-    height: 7%;
-    border-radius: 10px;
+.wrapper {
+    height: auto;
 }
 
+.container {
+    margin: 0 auto 0 auto;
+    padding-bottom: 20px;
+}
+
+/** HEADER AND NAVIGATION **/
 .navbar {
     display: flex;
     justify-content: center;
@@ -27,10 +45,9 @@ body {
 
 .navbar button {
     background: rgba(255, 255, 255, 0.7);
-    width:24.6%;
+    width:20%;
     border: none;
     color: black;
-    margin-top: 5px;
     margin-right: 5px;
     text-align: center;
     text-decoration: none;
@@ -40,13 +57,21 @@ body {
     border-radius: 10px;
 }
 
-h4 {
-    font-family: 'Palanquin', sans-serif;
+/** TYPOGRAPHY **/
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    font-family: 'Lobster', cursive;
+    color: rgba(245, 245, 245, 0.9);
+    margin-bottom: -14px;
 }
 
 h2{
+    display: flex;
+    justify-content: center;
     font-family: 'Lobster', cursive;
-    color: black;
+    color: rgba(245, 245, 245, 0.9);
 }
 
 h3 {
@@ -55,13 +80,12 @@ h3 {
     font-size: 30px;
 }
 
-
-h1 {
-    font-size: 48px;
-    font-family: 'Lobster', cursive;
-    color: rgba(245, 245, 245, 0.9);
+h4 {
+    font-family: 'Palanquin', sans-serif;
 }
 
+
+/** CONTENT & MEDIA **/
 #meBox {
     background: rgba(255, 255, 255, 0.7);
     width: 55%;
@@ -72,37 +96,9 @@ h1 {
     font-family: 'Palanquin', sans-serif;
 }
 
-.connect,
-.portfolioHeader {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.site-footer {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-}
-
-#workBox {
-    background: rgba(255, 255, 255, 0.8);
-    width: 65%;
-    padding: 0 20px 0 30px;
-    border-radius: 5px;
-    margin: 30px auto;
-    font-family: 'Palanquin', sans-serif;
-}
-
-.container {
-    margin: 0 auto 0 auto;
-    padding-bottom: 20px;
-}
-
 #picture {
     display: inline-block;
     position: relative;
-
 }
 
 #bio {
@@ -110,302 +106,55 @@ h1 {
     display: inline-block;
     position: relative;
     float: right;
+}
 
+#workBox {
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    width: 60%;
+    border-radius: 5px;
+    font-family: 'Palanquin', sans-serif;
+}
+
+.projects {
+    position: relative;
+    width: 35%;
+}
+
+.connect,
+.portfolioHeader {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/** FOOTER **/
+.site-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
 
 footer {
     background-color: rgba(255, 165, 0, 0.85);
+    display: table-row;
     position: absolute;
-    left: 0;
     bottom: 0;
     height: 90px;
     width: 100%;
-    overflow:hidden;
 }
 
-@media screen and (max-width: 1290px) {
+
+
+@media screen and (max-width: 1115px) {
     html {
-        background-image: url("../images/galaxyBG-2.jpg");
         background-size: 250%;
     }
 
-    h1 {
-        font-size: 40px;
-    }
-
-    .navbar button {
-        background: rgba(255, 255, 255, 0.7);
-        width:20%;
-        font-size: 16px;
-    }
-
-    #meBox {
-        background: rgba(255, 255, 255, 0.7);
-        height: 100%;
-        width: 80%;
-        padding: 20px;
-        border-radius: 5px;
-        margin: 30px auto;
-        font-family: 'Palanquin', sans-serif;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #picture {
-        display: flex;
-        justify-content: center;
-    }
-
-    #bio {
-        width: 95%;
-        margin-top: 4px;
-        float: none;
-    }
-
     #workBox {
         background: rgba(255, 255, 255, 0.8);
-        width: 80%;
-        padding: 0 20px 0 30px;
-        border-radius: 5px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
+        width: 75%;
+        margin: 10px auto;
         font-family: 'Palanquin', sans-serif;
-    }
-
-    h3 {
-        font-family: 'Lobster', cursive;
-        color: black;
-        font-size: 20px;
-    }
-
-    .wrapper {
-        min-height: 100%;
-        margin-bottom: -90px;
-    }
-    footer {
-        background-color: rgba(255, 165, 0, 0.85);
-        position: absolute;
-        left: 0;
-        height: 90px;
-        width: 100%;
-        overflow:hidden;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    html {
-        background-image: url("../images/galaxyBG-2.jpg");
-        background-size: 350%;
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-
-    .navbar button {
-        background: rgba(255, 255, 255, 0.7);
-        width:20%;
-        font-size: 16px;
-    }
-
-    #meBox {
-        background: rgba(255, 255, 255, 0.7);
-        height: 100%;
-        width: 80%;
-        padding: 20px;
-        border-radius: 5px;
-        margin: 30px auto;
-        font-family: 'Palanquin', sans-serif;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #picture {
-        display: flex;
-        justify-content: center;
-    }
-
-    #bio {
-        width: 95%;
-        margin-top: 4px;
-        float: none;
-    }
-
-    #workBox {
-        background: rgba(255, 255, 255, 0.8);
-        width: 80%;
-        padding: 0 20px 0 30px;
-        border-radius: 5px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        font-family: 'Palanquin', sans-serif;
-    }
-
-    h3 {
-        font-family: 'Lobster', cursive;
-        color: black;
-        font-size: 20px;
-    }
-
-    .wrapper {
-        min-height: 100%;
-        margin-bottom: -90px;
-    }
-    footer {
-        background-color: rgba(255, 165, 0, 0.85);
-        position: absolute;
-        left: 0;
-        bottom: -140px;
-        height: 90px;
-        width: 100%;
-        overflow:hidden;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    html {
-        background-image: url("../images/galaxyBG-2.jpg");
-        background-size: 450%;
-    }
-
-    h1 {
-        font-size: 12px;
-    }
-
-    .navbar button {
-        background: rgba(255, 255, 255, 0.7);
-        width:20%;
-        font-size: 16px;
-    }
-
-    #meBox {
-        background: rgba(255, 255, 255, 0.7);
-        height: 100%;
-        width: 80%;
-        padding: 10px;
-        border-radius: 5px;
-        margin: 30px auto;
-        font-family: 'Palanquin', sans-serif;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #picture {
-        display: flex;
-        justify-content: center;
-    }
-
-    #bio {
-        width: 95%;
-        margin-top: 4px;
-        float: none;
-    }
-
-    #workBox {
-        background: rgba(255, 255, 255, 0.8);
-        width: 80%;
-        padding: 10px;
-        border-radius: 5px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        font-family: 'Palanquin', sans-serif;
-    }
-
-    h3 {
-        font-family: 'Lobster', cursive;
-        color: black;
-        font-size: 20px;
-    }
-
-    .wrapper {
-        min-height: 100%;
-        margin-bottom: -90px;
-    }
-    footer {
-        background-color: rgba(255, 165, 0, 0.85);
-        position: absolute;
-        left: 0;
-        bottom: -500px;
-        height: 90px;
-        width: 100%;
-        overflow:hidden;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    html {
-        background-image: url("../images/galaxyBG-2.jpg");
-        background-size: 450%;
-    }
-
-    h1 {
-        font-size: 12px;
-    }
-
-    .navbar button {
-        background: rgba(255, 255, 255, 0.7);
-        width:20%;
-        font-size: 16px;
-    }
-
-    #meBox {
-        background: rgba(255, 255, 255, 0.7);
-        height: 100%;
-        width: 80%;
-        padding: 10px;
-        border-radius: 5px;
-        margin: 30px auto;
-        font-family: 'Palanquin', sans-serif;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #picture {
-        display: flex;
-        justify-content: center;
-    }
-
-    #bio {
-        width: 95%;
-        margin-top: 4px;
-        float: none;
-    }
-
-    #workBox {
-        background: rgba(255, 255, 255, 0.8);
-        width: 80%;
-        padding: 20px;
-        border-radius: 5px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        font-family: 'Palanquin', sans-serif;
-    }
-
-    .pics {
-        width: 200px;
-    }
-
-    h3 {
-        font-family: 'Lobster', cursive;
-        color: black;
-        font-size: 20px;
-    }
-
-    .wrapper {
-        min-height: 100%;
-        margin-bottom: -90px;
-    }
-    footer {
-        background-color: rgba(255, 165, 0, 0.85);
-        position: absolute;
-        left: 0;
-        bottom: -500px;
-        height: 90px;
-        width: 100%;
-        overflow:hidden;
     }
 }

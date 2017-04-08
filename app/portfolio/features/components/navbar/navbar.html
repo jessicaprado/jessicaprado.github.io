@@ -1,10 +1,14 @@
-<div class="banner">
-    <div class="name">
-        <h1>Jessica Prado | Full Stack Web Developer</h1>
+<div class="row banner">
+    <div class="row name">
+        <h1 class="col-md-12">Jessica Prado</h1>
     </div>
 
-    <div class="navbar">
-        <button ng-repeat='navbar in NavbarVM.navbarButtons' navbar-data="navbar" ui-sref="{{navbar}}">{{navbar}}</button>
+    <div class="row name">
+        <h2 class="col-md-12">Full Stack Web Developer</h2>
+    </div>
+
+    <div class="row navbar">
+        <button class="col-md-12" ng-repeat='navbar in NavbarVM.navbarButtons' navbar-data="navbar" ui-sref="{{navbar}}">{{navbar}}</button>
     </div>
 </div>
 
