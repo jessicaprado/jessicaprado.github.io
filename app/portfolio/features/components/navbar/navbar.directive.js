@@ -19,15 +19,19 @@ function NavbarCtrl($document) {
     var vm = this;
 
     vm.navbarButtons = [{
+        name: 'home',
         path: 'introBox',
         img: 'fa fa-home fa-2x'
     },{
+        name: 'about',
         path: 'aboutMeBox',
         img: 'fa fa-heart fa-2x'
     },{
+        name: 'code',
         path: 'workBox',
         img: 'fa fa-code fa-2x'
     },{
+        name: 'contact',
         path: 'contactForm',
         img: 'fa fa-envelope-o fa-2x'
     }];

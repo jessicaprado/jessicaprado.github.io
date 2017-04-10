@@ -28,20 +28,25 @@ body {
 /*!** HEADER AND NAVIGATION **!*/
 .navigation {
     position: fixed;
-    margin-top: 1%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    float: left;
 }
 
 button {
     background: rgba(255, 255, 255, 0.0);
-    display: flex;
-    justify-content: flex-start;
     border: none;
-    color: black;
+    color: rgba(0, 0, 0, 0.7);
     width: 100%;
-    margin-bottom: 50%;
+    margin-bottom: 10%;
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
+}
+
+button:hover {
+    color: rgba(245, 245, 245, 0.7);
 }
 
 /*!** TYPOGRAPHY **!*/
