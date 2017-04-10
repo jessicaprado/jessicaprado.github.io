@@ -28,11 +28,13 @@ body {
 /*!** HEADER AND NAVIGATION **!*/
 .navigation {
     position: fixed;
-    margin-top: 9%;
+    margin-top: 1%;
 }
 
 button {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.0);
+    display: flex;
+    justify-content: flex-start;
     border: none;
     color: black;
     width: 100%;
