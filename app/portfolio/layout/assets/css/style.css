@@ -55,7 +55,7 @@ h1 {
 
 h3 {
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 30px;
+    font-size: 24px;
     color: black;
 }
 
@@ -73,6 +73,7 @@ h5 {
 h6 {
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
+    text-align: center;
 }
 
 
@@ -86,8 +87,13 @@ h6 {
     margin-bottom: 20%;
 }
 
+#bio {
+    margin-top: 10px;
+}
+
 #workBox {
     margin: 0 auto 10%;
+    width: 95%;
 }
 
 .projects {
@@ -98,7 +104,7 @@ h6 {
     text-align: center;
     margin-top: 1%;
     margin-bottom: 3%;
-    border-top: dashed;
+    border-top: 1px solid rgba(245, 245, 245, 0.3);
 }
 
 .codeImg {
@@ -108,7 +114,7 @@ h6 {
 
 #contactForm {
     margin: 0 auto 50%;
-    border: dashed;
+    border: 2px solid rgba(245, 245, 245, 0.3);;
     width: 70%;
 }
 
@@ -131,14 +137,18 @@ input[type=text] {
     background-color: rgba(245, 245, 245, 0.5);
 }
 
+INPUT[type=submit],
+INPUT[type=reset] {
+    color: rgba(0, 0, 0, 0.7);
+}
+
 .submit,
 .reset {
-    background: rgba(255, 255, 255, 0.1);
-    color: rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.0);
     border: none;
     color: black;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     border-radius: 2px;
     font-size: 32px;
     font-family: 'Rubik', sans-serif;
