@@ -11,150 +11,143 @@
 
 /** PAGE STRUCTURE **/
 html {
-    background-image: url("../images/galaxyBG-2.jpg");
-    background-size: 100%;
-    height: 100%;
-    margin: 0;
-    background-attachment: fixed;
+    background: url("../images/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: table;
     width: 100%;
+    height: 100%;
 }
 
 body {
     background: rgba(255, 255, 255, 0.0);
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    display: table;
 }
 
-.wrapper {
-    height: auto;
+/*!** HEADER AND NAVIGATION **!*/
+.navigation {
+    position: fixed;
+    margin-top: 9%;
 }
 
-.container {
-    margin: 0 auto 0 auto;
-    padding-bottom: 20px;
-}
-
-/** HEADER AND NAVIGATION **/
-.navbar {
-    display: flex;
-    justify-content: center;
-}
-
-.navbar button {
-    background: rgba(255, 255, 255, 0.7);
-    width:20%;
+button {
+    background: rgba(255, 255, 255, 0.2);
     border: none;
     color: black;
-    margin-right: 5px;
+    width: 100%;
+    margin-bottom: 50%;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-family: 'Lobster', cursive;
-    font-size: 20px;
     border-radius: 10px;
 }
 
-/** TYPOGRAPHY **/
+/*!** TYPOGRAPHY **!*/
 h1 {
     display: flex;
     justify-content: center;
-    font-size: 56px;
-    font-family: 'Lobster', cursive;
-    color: rgba(245, 245, 245, 0.9);
-    margin-bottom: -14px;
-}
-
-h2{
-    display: flex;
-    justify-content: center;
-    font-family: 'Lobster', cursive;
-    color: rgba(245, 245, 245, 0.9);
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Rubik', sans-serif;
+    color: rgba(245, 245, 245, 0.5);
+    margin: 0 auto;
 }
 
 h3 {
-    font-family: 'Lobster', cursive;
-    color: black;
+    font-family: 'Nothing You Could Do', cursive;
     font-size: 30px;
+    color: black;
 }
 
 h4 {
-    font-family: 'Palanquin', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 36px;
+}
+
+h5 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
 }
 
 
-/** CONTENT & MEDIA **/
-#meBox {
-    background: rgba(255, 255, 255, 0.7);
-    width: 55%;
-    padding: 20px;
-    border-radius: 5px;
-    display: block;
-    margin: 30px auto;
-    font-family: 'Palanquin', sans-serif;
+/*!** CONTENT & MEDIA **!*/
+#introBox {
+    margin-top: 10%;
+    margin-bottom: 30%;
 }
 
-#picture {
-    display: inline-block;
-    position: relative;
-}
-
-#bio {
-    width: 70%;
-    display: inline-block;
-    position: relative;
-    float: right;
+#aboutMeBox {
+    margin-bottom: 20%;
 }
 
 #workBox {
-    margin: 0 auto;
-    background: rgba(255, 255, 255, 0.8);
-    width: 60%;
-    border-radius: 5px;
-    font-family: 'Palanquin', sans-serif;
+    margin: 0 auto 10%;
 }
 
 .projects {
-    position: relative;
-    width: 35%;
+    margin: 2% 0 5%;
 }
 
-.connect,
-.portfolioHeader {
+.projectNameDiv {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    border-top: dashed;
+}
+
+.codeImg {
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    justify-content: flex-end;
 }
 
-/** FOOTER **/
-.site-footer {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
+#contactForm {
+    margin: 0 auto 50%;
+    border: dashed;
+    width: 70%;
 }
 
-footer {
-    background-color: rgba(255, 165, 0, 0.85);
-    display: table-row;
-    position: absolute;
-    bottom: 0;
-    height: 90px;
+.inputName {
     width: 100%;
 }
 
-
-
-@media screen and (max-width: 1115px) {
-    html {
-        background-size: 250%;
-    }
-
-    #workBox {
-        background: rgba(255, 255, 255, 0.8);
-        width: 75%;
-        margin: 10px auto;
-        font-family: 'Palanquin', sans-serif;
-    }
+.emailInput {
+    width: 100%;
 }
+
+.commentInput {
+    width: 100%;
+    line-height: 6em;
+}
+
+input[type=text] {
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.submit,
+.reset {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(0, 0, 0, 0.3);
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: 32px;
+    font-family: 'Rubik', sans-serif;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.submitReset {
+    display: flex;
+    justify-content: center;
+}
+/*!** FOOTER **!*/

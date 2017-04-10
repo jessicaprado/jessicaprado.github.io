@@ -1,18 +1,41 @@
-<div class="row" id="workBox">
+<div id="workBox">
+
     <div class="row">
         <div class="col-md-12 portfolioHeader">
-            <h3>Portfolio</h3>
+            <h1>Projects & Code</h1>
         </div>
     </div>
 
-    <div class="row container">
-        <div class="projects col-md-5" ng-repeat='projects in ShowCaseVM.projects' show-case-data="showCase">
-            <h4>{{projects.name}}</h4>
-            <a href="{{projects.link}}">
-            <img class="pics" src="{{projects.img}}" width="250"></a>
+    <div class="row projects"
+         ng-repeat='projects in ShowCaseVM.projects'
+         show-case-data="showCase">
+
+        <div class="row projectNameDiv">
+
+            <div class="projectName col-md-4"></div>
+
+            <h4 class="projectName col-md-4">{{projects.name}}</h4>
+
+            <div class="projectName col-md-4"></div>
+
         </div>
+
+        <div class="row">
+            <div class="col-md-1 images"></div>
+
+            <div class="col-md-5 codeImg">
+                <a href="{{projects.linkCode}}">
+                <img class="pics" src="{{projects.imgCode}}" width="600" height="400"></a>
+            </div>
+
+            <div class="col-md-5 siteImg">
+                <a href="{{projects.link}}">
+                <img class="pics" src="{{projects.img}}" width="600" height="400"></a>
+            </div>
+
+            <div class="col-md-1"></div>
+        </div>
+
     </div>
-
-
 
 </div>

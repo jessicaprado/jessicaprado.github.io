@@ -21,18 +21,26 @@ function ShowCaseCtrl() {
     vm.projects = [{
         name: "Scheduling Tools",
         link: "http://schedulingtools.herokuapp.com/",
-        img: "app/portfolio/layout/assets/images/scheduling.png"
-    }, {
+        img: "app/portfolio/layout/assets/images/scheduling.png",
+        linkCode: "https://github.com/jessicaprado/schedulingTools",
+        imgCode: "app/portfolio/layout/assets/images/schedulingCode.png",
+     }, {
         name: "Pipeline",
         link: "https://still-falls-96461.herokuapp.com/",
-        img: "app/portfolio/layout/assets/images/pipeline.png"
+        img: "app/portfolio/layout/assets/images/pipeline.png",
+        linkCode: "https://github.com/what-to-do/team-project",
+        imgCode: "app/portfolio/layout/assets/images/pipelineCode.png",
     }, {
         name: "Trivia Game",
         link: "https://pottertriviagame.herokuapp.com/",
-        img: "app/portfolio/layout/assets/images/trivia.png"
+        img: "app/portfolio/layout/assets/images/trivia.png",
+        linkCode: "https://github.com/jessicaprado/TriviaGame",
+        imgCode: "app/portfolio/layout/assets/images/triviaCode.png",
     }, {
-        name: "Burger",
+        name: "MySQL Burger",
         link: "https://pure-falls-31241.herokuapp.com/",
-        img: "app/portfolio/layout/assets/images/burger.png"
+        img: "app/portfolio/layout/assets/images/burger.png",
+        linkCode: "https://github.com/jessicaprado/burger",
+        imgCode: "app/portfolio/layout/assets/images/burgerCode.png",
     }]
 }

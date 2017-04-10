@@ -2,10 +2,10 @@ angular
     .module('portfolio', [
         //global dependencies
         'ui.router',
+        'duScroll',
 
         //features
-        'portfolio.home',
-        'portfolio.work',
+        'portfolio.jessica',
     ])
     .config(appConfig);
 
