@@ -1,6 +1,13 @@
- <button ng-repeat='navbar in NavbarVM.navbarButtons'
-         navbar-data="navbar"
-         ng-click="NavbarVM.goTo(navbar.path)"
-         class="{{navbar.name}}">
-     <i class="{{navbar.img}}" aria-hidden="true"></i> {{navbar.name}}
- </button>
+
+    <button ng-repeat='navbar in NavbarVM.navbarButtons'
+             navbar-data="navbar"
+             ng-click="NavbarVM.goTo(navbar.path)"
+             class="{{navbar.name}}">
+         <i class="{{navbar.img}}" aria-hidden="true"></i> {{navbar.name}}
+     </button>
+
+
+<div class="icons">
+    <a href="https://github.com/jessicaprado"><img src="app/portfolio/layout/assets/images/github.png" width="30px" height="30px" border="0"></a>
+    <a href="https://www.linkedin.com/in/jessica-prado-19269226"><img src="app/portfolio/layout/assets/images/linkedin.png" width="30px" height="30px" border="0"></a>
+</div>

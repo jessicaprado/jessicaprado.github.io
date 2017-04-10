@@ -89,11 +89,20 @@ h6 {
 /*!** CONTENT & MEDIA **!*/
 #introBox {
     margin-top: 10%;
-    margin-bottom: 30%;
+    margin-bottom: 40%;
 }
 
 .icons {
-    color: black;
+    color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 15px;
+    opacity: 0.7;
+    margin-right: auto;
+}
+
+.icons a {
+    margin-right: 10px;
 }
 
 
