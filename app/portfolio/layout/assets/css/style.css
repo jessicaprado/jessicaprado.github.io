@@ -49,6 +49,10 @@ button:hover {
     color: rgba(245, 245, 245, 0.7);
 }
 
+.contact {
+    margin-left: 5px;
+}
+
 /*!** TYPOGRAPHY **!*/
 h1 {
     display: flex;
@@ -82,8 +86,6 @@ h6 {
     font-family: 'Rubik', sans-serif;
     text-align: center;
 }
-
-
 /*!** CONTENT & MEDIA **!*/
 #introBox {
     margin-top: 10%;
