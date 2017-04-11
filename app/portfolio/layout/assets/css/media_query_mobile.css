@@ -1,68 +1,96 @@
-@media screen and (max-width: 400px) {
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /** PAGE STRUCTURE **/
-    html {
-        background-size: 450%;
-    }
 
-    /** HEADER AND NAVIGATION **/
-    .navbar button {
-        width: 23%;
-    }
+    /*!** HEADER AND NAVIGATION **!*/
+   .navigation {
+       position: fixed;
+       height: 50px;
+       z-index: 1000;
+       display: flex;
+       flex-direction: row;
+       float: none;
+       overflow: hidden;
+       width: 100%;
+   }
 
-    /** TYPOGRAPHY **/
+    /*!** TYPOGRAPHY **!*/
     h1 {
-        font-size: 40px;
+        font-size: 20px;
     }
 
-    h2 {
-        font-size: 24px;
+    h3 {
+        font-size: 12px;
     }
 
-    /** CONTENT & MEDIA **/
-    #meBox {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        margin: 0 auto;
+    h4 {
+        font-size: 18px;
     }
 
-    #picture {
+    h6 {
+        font-size: 16px;
+    }
+
+    /*!** CONTENT & MEDIA **!*/
+    #introBox {
+        width: 50%;
+        margin:60% auto 100%;
+        padding-top: 50px;
+        z-index: 1;
+    }
+
+    #aboutMeBox {
+        margin-bottom: 40%;
+        padding-top: 50px;
+        z-index: 1;
+    }
+
+    .quote {
         display: flex;
         justify-content: center;
-    }
-
-    #bio {
-        width: 95%;
-        margin-top: 4px;
-        float: none;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     #workBox {
-        width: 80%;
-        border-radius: 5px;
-        margin: 0 auto;
-        font-family: 'Palanquin', sans-serif;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto 50%;
     }
 
     .projects {
+        margin: 0 5% 5%;
+    }
+
+    #workBox img {
+        width: 200px;
+        height: 100px;
         display: flex;
-        flex-direction: column;
+        margin: 10px auto;
+
+    }
+
+    .codeImg {
+        display: flex;
         justify-content: center;
     }
 
-    /** FOOTER **/
-    .wrapper {
-        min-height: 100%;
-        margin-bottom: -90px;
+    .icons {
+        width: 100%;
+        color: rgba(0, 0, 0, 0.6);
+        margin: 0 auto 5px;
+        position: fixed;
+        bottom: 0px;
+        opacity: 0.7;
+        display: flex;
+        justify-content: center;
     }
 
-    footer {
-        background-color: rgba(255, 165, 0, 0.85);
-        position: absolute;
-        left: 0;
-        bottom: -625px;
-        height: 90px;
-        width: 100%;
-        overflow:hidden;
+    .icons a {
+        display: flex;
+        justify-content: center;
+
     }
 }
