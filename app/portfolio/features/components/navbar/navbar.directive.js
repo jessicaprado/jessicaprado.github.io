@@ -37,6 +37,8 @@ function NavbarCtrl($document) {
     }];
 
     vm.goTo = function(path) {
+        console.log (path);
+
         var top = 400;
         var duration = 500; //milliseconds
 
@@ -45,10 +47,11 @@ function NavbarCtrl($document) {
             console && console.log('You just scrolled to the top!');
         });
 
-        var offset = 30; //pixels; adjust for floating menu, context etc
+        var offset = 50; //pixels; adjust for floating menu, context etc
         //Scroll to #some-id with 30 px "padding"
         //Note: Use this in a directive, not with document.getElementById
         var someElement = angular.element(document.getElementById(path));
+
         $document.scrollToElement(someElement, offset, duration);
     };
 }

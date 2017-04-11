@@ -4,6 +4,7 @@
 
     /*!** HEADER AND NAVIGATION **!*/
    .navigation {
+       background: rgba(255, 255, 255, 1);
        position: fixed;
        height: 50px;
        z-index: 1000;
@@ -12,6 +13,8 @@
        float: none;
        overflow: hidden;
        width: 100%;
+       padding-top: 5px;
+       margin: 0;
    }
 
     /*!** TYPOGRAPHY **!*/
@@ -79,18 +82,26 @@
 
     .icons {
         width: 100%;
-        color: rgba(0, 0, 0, 0.6);
-        margin: 0 auto 5px;
+        background: rgba(255, 255, 255, 1);
+        margin: 0 auto 0;
         position: fixed;
         bottom: 0px;
-        opacity: 0.7;
+        opacity: 1;
         display: flex;
         justify-content: center;
+        z-index: 1000;
+        height: 40px;
     }
 
     .icons a {
         display: flex;
         justify-content: center;
+        margin-top: 6px;
 
+    }
+
+    .submit,
+    .reset {
+        font-size: 24px;
     }
 }
