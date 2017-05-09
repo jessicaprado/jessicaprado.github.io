@@ -1,0 +1,140 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+
+html {
+  background: url("../../images/background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  @include perfectHW;
+}
+
+body {
+  background: $white;
+}
+
+.navigation {
+  @include navigation;
+}
+
+button {
+  @include button;
+}
+
+.contact {
+  margin-left: 5px;
+}
+
+h1 {
+  @include introBanner;
+}
+
+h3 {
+  @include quote;
+}
+
+h4 {
+  font-family: $rubikFont;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 36px;
+}
+
+h5 {
+  font-family: $rubikFont;
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 20px;
+  font-family: $rubikFont;
+  text-align: center;
+}
+
+#introBox {
+  margin-top: 10%;
+  margin-bottom: 40%;
+}
+
+.icons {
+  @include icons;
+}
+
+#aboutMeBox {
+  margin-bottom: 30%;
+}
+
+#bio {
+  margin-top: 10px;
+}
+
+#workBox {
+  margin: 0 auto 10%;
+  width: 95%;
+}
+
+.projects {
+  margin: 2% 0 5%;
+}
+
+.projectNameDiv {
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  border-top: 1px solid rgba(245, 245, 245, 0.3);
+}
+
+.codeImg {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#contactForm {
+  margin: 0 auto 50%;
+  border: 2px solid rgba(245, 245, 245, 0.3);;
+  width: 70%;
+}
+
+.inputName {
+  width: 100%;
+}
+
+.emailInput {
+  width: 100%;
+}
+
+.commentInput {
+  width: 100%;
+  line-height: 6em;
+}
+
+input[type=text] {
+  border: none;
+  border-radius: 7px;
+  background-color: rgba(245, 245, 245, 0.5);
+}
+
+INPUT[type=submit],
+INPUT[type=reset] {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.submit,
+.reset {
+  background: rgba(255, 255, 255, 0.0);
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  border-radius: 2px;
+  font-size: 32px;
+  font-family: 'Rubik', sans-serif;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+
+.submitReset {
+  display: flex;
+  justify-content: center;
+}
