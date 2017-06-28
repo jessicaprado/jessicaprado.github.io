@@ -4,18 +4,29 @@
 
     /*!** HEADER AND NAVIGATION **!*/
    .navigation {
-       background: rgba(255, 255, 255, 1);
+       background: rgba(245, 245, 245, 1);
        position: fixed;
        height: 50px;
-       z-index: 1000;
+       z-index: 1;
        display: flex;
        flex-direction: row;
        float: none;
        overflow: hidden;
        width: 100%;
-       padding-top: 5px;
-       margin: 0;
+       padding-top: 0px;
+       margin-left: -20px;
+       margin-top: 0px;
    }
+
+    .navigation button {
+        margin-top: 10px;
+        outline: 0;
+        text-decoration: none;
+    }
+
+    button:hover {
+        color: rgba(50, 50, 50, 0.7);
+    }
 
     /*!** TYPOGRAPHY **!*/
     h1 {
@@ -90,14 +101,27 @@
         display: flex;
         justify-content: center;
         z-index: 1000;
-        height: 40px;
+        height: 50px;
+        text-decoration: none;
+        outline: 0;
     }
 
     .icons a {
         display: flex;
         justify-content: center;
         margin-top: 6px;
+        text-decoration: none;
+        outline: 0;
+    }
 
+    .icons a:hover {
+        color: rgba(50, 50, 50, 0.7);
+        text-decoration: none;
+    }
+
+    .icons a:focus {
+        outline: 0;
+        text-decoration: none;
     }
 
     .submit,
