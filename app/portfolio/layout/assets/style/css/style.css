@@ -118,7 +118,6 @@ h6 {
 }
 
 .icons {
-  color: rgba(0, 0, 0, 0.6);
   position: fixed;
   bottom: 0;
   margin-bottom: 15px;
@@ -127,6 +126,11 @@ h6 {
 
 .icons a {
   margin-right: 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.icons a:hover {
+  color: rgba(245, 245, 245, 0.7);
 }
 
 #aboutMeBox {
