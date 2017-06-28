@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b282795b-ae45-4a06-a272-f0535ed5c0ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/layout/assets/style/css/media_query_mobile.css" afterPath="$PROJECT_DIR$/app/portfolio/layout/assets/style/css/media_query_mobile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/layout/assets/style/css/style.css" afterPath="$PROJECT_DIR$/app/portfolio/layout/assets/style/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/layout/assets/style/prepros-6.config" afterPath="$PROJECT_DIR$/app/portfolio/layout/assets/style/prepros-6.config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/portfolio/layout/assets/style/scss/style.scss" afterPath="$PROJECT_DIR$/app/portfolio/layout/assets/style/scss/style.scss" />
-    </list>
+    <list default="true" id="b282795b-ae45-4a06-a272-f0535ed5c0ec" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +14,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.65558195">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="navbar.directive.js" pinned="false" current-in-tab="false">
@@ -42,7 +37,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="media_query_mobile.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="media_query_mobile.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/portfolio/layout/assets/style/css/media_query_mobile.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="668">
@@ -82,7 +77,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="showCase.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="showCase.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="585">
@@ -930,12 +925,12 @@
       <workItem from="1492181857403" duration="1258000" />
       <workItem from="1492566034218" duration="13000" />
       <workItem from="1494367815037" duration="2343000" />
-      <workItem from="1498674053042" duration="2650000" />
+      <workItem from="1498674053042" duration="2819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75941000" />
+    <option name="totallyTimeSpent" value="76110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="466" y="23" width="1582" height="1123" extended-state="0" />
@@ -1162,22 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1214,6 +1193,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="668">
           <caret line="117" column="37" lean-forward="false" selection-start-line="117" selection-start-column="37" selection-end-line="117" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/navbar/navbar.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/portfolio/features/components/showCase/showCase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
