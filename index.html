@@ -9,57 +9,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta name="fragment" content="!">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-scroll/1.0.0/angular-scroll.min.js"></script>
 
     <script src="https://use.fontawesome.com/ddc29cdbe4.js"></script>
-    <link rel="stylesheet" type="text/css" href="app/portfolio/layout/assets/style/css/style.css">
-    <link rel="stylesheet" type="text/css" href="app/portfolio/layout/assets/style/css/media_query_tablet.css">
-    <link rel="stylesheet" type="text/css" href="app/portfolio/layout/assets/style/css/media_query_mobile.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/style/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
 
 </head>
 
-<body ng-app="portfolio">
+<body>
 
-<div class="everything wrapper">
-    <ui-view></ui-view>
-</div>
+  <div class="navigation">
+    <div class="nav-wrapper">
+      <a href="#about">about</a>
+      <a href="#work">work</a>
+      <a href="#contact">contact</a>
+    </div>
+  </div>
 
+
+  <div class="intro section">
+    <div class="intro-wrapper">
+      <h1>Nice to meet you. I'm <span>Jessica</span><h1>
+    </div>
+  </div>
+  <div class="body-wrapper">
+
+    <div class="skills section" id="about">
+      <h2>These are some of my <span>skillsets</span><h2>
+      <div class="skills-wrapper">
+
+        <div class="single-skill">
+          <i class="skill-img devicon-html5-plain"></i>
+          <h3 class="skill-hover">HTML5</h3>
+        </div>
+
+        <div class="single-skill">
+          <i class="skill-img devicon-css3-plain"></i>
+          <h3 class="skill-hover">CSS3</h3>
+        </div>
+
+        <div class="single-skill">
+          <i class="skill-img devicon-javascript-plain"></i>
+          <h3 class="skill-hover">Javascript</h3>
+        </div>
+
+        <div class="single-skill">
+          <i class="skill-img devicon-php-plain"></i>
+          <h3 class="skill-hover">PHP</h3>
+        </div>
+
+        <div class="single-skill">
+          <i class="skill-img devicon-wordpress-plain"></i>
+          <h3 class="skill-hover">Wordpress</h3>
+        </div>
+
+        <div class="single-skill">
+          <i class="skill-img devicon-atom-original"></i>
+          <h3 class="skill-hover">Atom</h3>
+        </div>
+
+        <div class="single-skill">
+          <i class="skill-img devicon-sass-original"></i>
+          <h3 class="skill-hover">SASS</h3>
+        </div>
+
+        <div class="single-skill">
+          <i class="skill-img devicon-nodejs-plain"></i>
+          <h3 class="skill-hover">NodeJS</h3>
+        </div>
+
+        <div class="single-skill">
+          <i class="skill-img devicon-git-plain"></i>
+          <h3 class="skill-hover">Git</h3>
+        </div>
+
+        <div class="single-skill">
+          <i class="skill-img skill-img devicon-linux-plain"></i>
+          <h3 class="skill-hover">Linux</h3>
+        </div>
+
+        <div class="single-skill">
+          <i class="skill-img devicon-apache-line"></i>
+          <h3 class="skill-hover">Apache</h3>
+        </div>
+
+        <div class="single-skill">
+          <i class="skill-img devicon-mysql-plain"></i>
+          <h3 class="skill-hover">mysql</h3>
+        </div>
+
+      </div>
+
+      <div class="cert-wrapper">
+        <h2><span>Certifications</span></h2>
+          <h3>Google Analytics</h3>
+          <h3>Google Adwords</h3>
+          <h3>Google Display Ads</h3>
+      </div>
+    </div>
+
+    <div class="projects section" id="work">
+      <h2>Here are some <span>projects</span> I've worked on.</h2>
+      <div class="projects-wrapper">
+
+        <a class="projects-a" href="https://github.com/jessicaprado/schedulingTools">
+          <div class="projects-shot" style="background-image: url('/assets/images/schedulingCode.png' )"></div>
+          <div class="projects-shot projects-hover" style="background-image: url('/assets/images/scheduling.png' )"></div>
+        </a>
+        <a class="projects-a" href="https://github.com/jessicaprado/schedulingTools">
+          <div class="projects-shot" style="background-image: url('/assets/images/burgerCode.png' )"></div>
+          <div class="projects-shot projects-hover" style="background-image: url('/assets/images/burger.png' )"></div>
+        </a>
+        <a class="projects-a" href="https://github.com/jessicaprado/schedulingTools">
+          <div class="projects-shot" style="background-image: url('/assets/images/pipelineCode.png' )"></div>
+          <div class="projects-shot projects-hover" style="background-image: url('/assets/images/pipeline.png' )"></div>
+        </a>
+        <a class="projects-a" href="https://github.com/jessicaprado/schedulingTools">
+          <div class="projects-shot" style="background-image: url('/assets/images/triviaCode.png' )"></div>
+          <div class="projects-shot projects-hover" style="background-image: url('/assets/images/trivia.png' )"></div>
+        </a>
+
+
+
+      </div>
+    </div>
+
+    <div class="contact section" id="contact">
+      <div class="contact-wrapper">
+        <h2>Here some other places you can <span>find</span> me.</h2>
+        <a href="https://github.com/jessicaprado"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jessica-prado-19269226/"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:jessica.marie.prado@gmail.com"><i class="far fa-envelope"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Copyright 2018</p>
+  </footer>
 </body>
 
-    <script src="app/portfolio/portfolio.module.js"></script>
-
-    <script src="app/portfolio/features/jessica/jessica.module.js"></script>
-    <script src="app/portfolio/features/jessica/jessica.controller.js"></script>
-    <script src="app/portfolio/features/jessica/jessica.route.js"></script>
-
-    <script src="app/portfolio/features/components/intro/intro.module.js"></script>
-    <script src="app/portfolio/features/components/intro/intro.directive.js"></script>
-
-    <script src="app/portfolio/features/components/navbar/navbar.module.js"></script>
-    <script src="app/portfolio/features/components/navbar/navbar.directive.js"></script>
-
-    <script src="app/portfolio/features/components/showCase/showCase.module.js"></script>
-    <script src="app/portfolio/features/components/showCase/showCase.directive.js"></script>
-
-    <script src="app/portfolio/features/components/aboutMe/aboutMe.module.js"></script>
-    <script src="app/portfolio/features/components/aboutMe/aboutMe.directive.js"></script>
-
-    <script src="app/portfolio/features/components/contact/contact.module.js"></script>
-    <script src="app/portfolio/features/components/contact/contact.directive.js"></script>
-
-</body>
 </html>
