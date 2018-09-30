@@ -73,7 +73,7 @@ i {
 
 
 .body-wrapper {
-  max-width: 680px;
+  max-width: 600px;
   margin: auto;
 }
 
@@ -135,13 +135,13 @@ i {
 
 .projects-a{
   display: block;
-  margin: 1rem 0;
+  margin: 1rem auto;
   position: relative;
 }
 
 .projects-shot{
-  height: 230px;
-  width: 300px;
+  height: 200px;
+  width: 280px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -182,4 +182,64 @@ footer {
   text-align: center;
   color: #310255;
   padding: .5rem 0
+}
+
+@media only screen and (max-width: 800px){
+  .skills-wrapper {
+    width: 400px;
+  }
+
+  i {
+    font-size: 76px
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .intro-wrapper {
+    max-width: 80%;
+  }
+  .body-wrapper {
+    max-width: 400px
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .skills {
+    width: 250px;
+    margin: auto;
+  }
+
+  .skills-wrapper {
+    width: 254px;
+  }
+
+  i {
+    font-size: 50px
+  }
+
+  .skill-hover {
+    display: none
+  }
+
+  .skill-img {
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 400px){
+  h1 {
+    font-size: 38px
+  }
+
+  h2 {
+    font-size: 26px
+  }
+
+  h3 {
+    font-size: 18px
+  }
+
+  .body-wrapper {
+    max-width: 300px;
+  }
 }
