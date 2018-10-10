@@ -201,6 +201,9 @@ footer {
   .body-wrapper {
     max-width: 400px
   }
+  .section {
+    height: unset
+  }
 }
 
 @media only screen and (max-width: 500px){
