@@ -202,7 +202,7 @@ footer {
     max-width: 400px
   }
   .section {
-    margin: 20rem 0;
+    padding: 20rem 0 10rem 0;
     height: unset
   }
 }
