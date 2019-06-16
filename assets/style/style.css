@@ -15,15 +15,17 @@ body{
 }
 
 .nav-wrapper{
-  max-width: 200px;
+  max-width: 300px;
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
-.nav-wrapper a:hover{
+.nav-wrapper a {
   color: #310255;
+}
+.nav-wrapper a:hover{
+  color: #fff;
 }
 
 .section {
@@ -116,6 +118,10 @@ i {
 
 .cert-wrapper{
   text-align: center;
+}
+
+.cert-wrapper:last-of-type {
+  margin-top: 2rem
 }
 
 .cert-wrapper h2{
