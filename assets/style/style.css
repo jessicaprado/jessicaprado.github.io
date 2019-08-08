@@ -140,27 +140,52 @@ i {
   width: 100%
 }
 
+
 .projects-a{
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: center;
   margin: 1rem auto;
   position: relative;
 }
 
 .projects-desc{
-  width: 48%
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects-desc h3 {
+  margin-bottom: 15px;
+  font-weight: 400
+}
+
+.projects-desc p {
+  margin-bottom: 7px;
+ 
 }
 
 .projects-shot{
-  height: 200px;
-  width: 48%;
+  height: 240px;
+  width: 300px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   z-index: 10;
   transition: .4s all;
+  position: relative;
+}
+
+.projects-shot:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(245, 245, 245, 0.3)
+
 }
 
 .projects-hover {
@@ -218,6 +243,19 @@ footer {
   .section {
     padding: 20rem 0 10rem 0;
     height: unset
+  }
+
+  .projects-a {
+    flex-direction: column;
+  }
+
+  .projects-shot {
+    width: 100%;
+    margin-bottom: 20px
+  }
+
+  .projects-desc {
+    width: 100%
   }
 }
 
